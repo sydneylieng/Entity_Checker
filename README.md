@@ -6,4 +6,4 @@ Project created during Co-op Term at Teknion. Symbols are 2D/3D drawings that re
 3. Entity_Checker_Template: Here's where you'll fill in all your information about your drawings to create the script that runs the AutoLISP Script on different drawings. 
 4. Entity_Project_Documentation: This gives the rundown of the Project. 
 5. usefulLinks: Just a list of "useful links" if you want to deal with AutoCad commands. A really good link to debugging AutoCad.
-6. VBA Code: This helps create the script that runs the AutoLISP Script (already incorporated into the Entity_Checker_Template.
+6. VBA Code: This helps create the script that runs the AutoLISP Script (already incorporated into the Entity_Checker_Template).
