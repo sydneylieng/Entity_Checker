@@ -1,0 +1,62 @@
+Sub WriteTextFile()
+
+Dim CellData As String
+Dim LastCol As Long
+Dim LastRow As Long
+
+LastCol = ActiveSheet.UsedRange.SpecialCells(xlCellTypeLastCell).Column
+
+LastRow = ActiveSheet.UsedRange.SpecialCells(xlCellTypeLastCell).Row
+
+Open "C:\Users\jchanwa\Desktop\Zooming Code.SCR" For Append As #2
+
+Write #2, "(load ""C:/Users/jchanwa/Desktop/Entity_Checker/checkEntities.lsp"")"
+
+Write #2, "(startDate T)"
+
+For i = 1 To LastRow + 1
+
+    If i = LastRow Then
+        
+        Write #2, "(endDate T)"
+                
+        Exit For
+                
+    End If
+            
+    For j = 1 To LastCol
+        
+        If j = LastCol Then
+
+            CellData = CellData + Trim(ActiveCell(i, j).Value)
+            
+
+        
+        Else
+        
+            CellData = CellData + Trim(ActiveCell(i, j).Value) + vbNewLine
+
+        End If
+
+    Next j
+
+    Write #2, CellData
+    CellData = ""
+
+Next i
+
+
+
+Close #2
+
+End Sub
+
+
+
+
+
+
+
+
+
+

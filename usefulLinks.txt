@@ -1,0 +1,17 @@
+SELECTING ENTITIES
+http://www.jefferypsanders.com/autolispintr_sele.html
+
+ENTITY DXF GROUP CODES
+http://www.jefferypsanders.com/autolispintr_dxf.html
+
+ERROR MESSAGES
+http://www.lee-mac.com/errormessages.html
+
+LOG-TIME
+http://www.afralisp.net/autolisp/tutorials/file-handling.php
+
+CONDITION STATEMENTS (COND VS IF)
+http://www.afralisp.net/autolisp/tutorials/cond-vs-if.php
+
+LIST MANIPULATIONS
+http://www.afralisp.net/autolisp/tutorials/list-manipulation.php
